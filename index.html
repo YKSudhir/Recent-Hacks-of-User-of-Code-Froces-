@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CF Data</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Codeforces Data Fetcher</h1>
+
+    <!-- Input for Codeforces handle -->
+    <label for="input">Enter your Codeforces handle:</label>
+    <input type="text" id="input" placeholder="Type your handle here" />
+    <br /><br />
+
+    <!-- Input for From Date -->
+    <label for="fromDate">From Date (YYYY-MM-DD):</label>
+    <input type="date" id="fromDate" />
+    <br /><br />
+
+    <!-- Input for To Date -->
+    <label for="toDate">To Date (YYYY-MM-DD):</label>
+    <input type="date" id="toDate" />
+    <br /><br />
+
+    <!-- Submit Button -->
+    <button id="fetchStatus">Submit</button>
+
+    <!-- Place to display the results -->
+    <div id="results" class="results"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

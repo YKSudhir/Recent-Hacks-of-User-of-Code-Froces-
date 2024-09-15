@@ -1,0 +1,12 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore all .log files
+*.log
+
+# Ignore a specific file
+config.json
+
+# Ignore all files with a specific extension in a directory
+/temp/*.tmp
+.vscode
